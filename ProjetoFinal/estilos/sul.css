@@ -1,0 +1,13 @@
+:root {
+    /* Paleta Sul: Serras, araucárias, frio, vinho */
+    --sul-fundo: #495057;
+    --sul-destaque: #6f42c1;
+    --sul-verde: #218380;
+    --sul-pedra: #8d8d8d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

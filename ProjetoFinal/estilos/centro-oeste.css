@@ -1,0 +1,13 @@
+:root {
+    /* Paleta Centro-Oeste: Cerrado, Pantanal, rios, pôr do sol */
+    --centro-oeste-fundo: #4a4e69;
+    --centro-oeste-destaque: #9d4edd;
+    --centro-oeste-verde: #7b9e87;
+    --centro-oeste-terra: #a45a49;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

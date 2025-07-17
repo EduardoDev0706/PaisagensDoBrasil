@@ -1,0 +1,13 @@
+:root {
+    /* Paleta Sudeste: Montanhas, cidades históricas, litoral, urbanidade */
+    --sudeste-fundo: #343a40;
+    --sudeste-destaque: #dc3545;
+    --sudeste-montanha: #6c757d;
+    --sudeste-azul: #007bff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
