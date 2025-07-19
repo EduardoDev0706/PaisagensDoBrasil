@@ -4,10 +4,83 @@
     --nordeste-destaque: #e9c46a;
     --nordeste-areia: #f4a261;
     --nordeste-ceu: #2a9d8f;
+
+    /* Cores Gerais */
+    --branco-areia-classica: #F8F8F8;
+    --dourado-destaque: #FFD700;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.body-nordeste {
+    background-color: var(--nordeste-fundo);
+}
+
+.region-intro-section {
+    padding: 30px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    color: var(--branco-areia-classica);
+}
+
+.region-intro-section h2 {
+    font-size: 2em;
+    color: var(--nordeste-destaque);
+    margin-bottom: 10px;
+}
+
+.region-intro-section p {
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.tourist-spot-card {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: var(--branco-areia-classica);
+}
+
+.tourist-spot-card h3 {
+    font-size: 1.6em;
+    color: var(--nordeste-ceu);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tourist-spot-card p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+@media (min-width: 769px) {
+    .region-intro-section {
+        padding: 60px 40px;
+        margin-bottom: 40px;
+    }
+
+    .region-intro-section h2 {
+        font-size: 3em;
+    }
+
+    .region-intro-section p {
+        font-size: 1.1em;
+    }
+
+    .tourist-spot-card {
+        padding: 40px;
+        margin-bottom: 30px;
+    }
+
+    .tourist-spot-card h3 {
+        font-size: 2em;
+    }
+
+    .tourist-spot-card p {
+        font-size: 1em;
+    }
 }

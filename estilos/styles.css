@@ -19,7 +19,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--preto-rocha-vulcanica);
+    background-color: var(--preto-rocha-vulcanica); 
     color: var(--branco-areia-classica);
     line-height: 1.6;
     min-height: 100vh;
